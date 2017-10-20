@@ -1,0 +1,221 @@
+Nápoles Vázquez Erica Yoselin Grupo:1107
+
+/*
+#include<stdio.h>
+int a,b,c,d;
+main()
+{
+printf("ingresa un valor");
+scanf("%d",&a);
+printf("ingresa otro valor");
+scanf("%d",&b);
+c=a;
+d=b;
+
+while (c!=0 || d!=0);
+ {c--:
+  d--:
+  printf("a=%d__b=%d",ab);
+ }
+ if(c==0&&d==0)
+ {
+ 	print("a y b son iguales");
+ }
+ else
+ {
+ 	if(c==0)
+ 	{
+ 		printf("a=%d,b=%d,b>a",a,b);
+ 	}
+ 	else 
+ 	{
+ 		printf("a=d%,b=d%, a>b", a,b)
+ 	}
+ }
+ }
+ }	
+}
+/* el programa no funciona porque contiene números entero negativos y nunca se detiene 
+
+
+*/
+#include<stdio.h>
+int a,b,c,d;
+main()
+{
+printf("ingresa un valor");
+scanf("%d",&a);
+printf("ingresa otro valor");
+scanf("%d",&b);
+c=a;
+d=b;
+while (c>0||d>0)
+{
+	c=(c-1);
+	d=(d-1);
+	printf("a=%d__b=%d",c,d);
+
+if (c==0&&d==0)
+{
+	printf("a y b son iguales");
+}
+else
+{
+	if (c==0)
+	{
+		printf("a=%d,b=%d, b es mayor que a", a,b);
+	}
+	else 
+	{
+		printf("a=%d,b=%d,a es mayor que b",a,b);
+	}
+	}
+}
+}
+*/ no arroja que número es el mayor
+
+/*
+#include<stdio.h>
+int a,b,c,d;
+main()
+{
+printf("ingresa un valor");
+scanf("%d",&a);
+printf("ingresa otro valor");
+scanf("%d",&b);
+c=a;
+d=b;
+while (c>0||d>0)
+{
+	c=(c-1);
+	d=(d-1);
+	printf("a=%d__b=%d",c,d);
+
+if (c==0&&d==0)
+{
+
+	printf("a y b son iguales");
+}
+else 
+{
+	if (c==0)
+	{
+		printf("a=%d,b=%d, a es menor que b", a,b);
+	}
+	else 
+	{
+		printf("a=%d,b=%d, a es mayor que b",a,b);
+	}
+	}
+}
+}
+*/ sigue sin poner el número que realmente es mayor
+
+/*
+
+#include<stdio.h>
+int a,b,c,d;
+main()
+{
+printf("ingresa un valor");
+scanf("%d",&a);
+printf("ingresa otro valor");
+scanf("%d",&b);
+c=a;
+d=b;
+while (c>0||d>0)
+{
+	c=(c-1);
+	d=(d-1);
+	printf("a=%d__b=%d",c,d);
+
+if (c==0&&d==0)
+{
+	printf("a y b son iguales");
+}
+else 
+{
+	if (c==0)
+	{
+		printf("a=%d,b=%d, b>a", a,b);
+	}
+	else 
+	{
+		printf("a=%d,b=%d,a>d",a,b);
+	}
+	}
+}
+}
+*/ pone el resultado correcto pero no sabe si los números son iguales
+
+/*
+#include<stdio.h>
+ int a,b,c,d;
+main()
+{
+printf("ingresa un valor");
+scanf("%d",&a);
+printf("ingresa otro valor");
+scanf("%d",&b);
+c=a;
+d=b;
+while (c>0||d>0)
+{
+	c=(c-1);
+	d=(d-1);
+	printf("a=%d__b=%d",c,d);
+}
+if (c==0&&d==0)
+{
+	printf("a y b son iguales");
+}
+else 
+{
+	if (c==0)
+	{
+		printf("a=%d,b=%d, a es mayor que b", a,b);
+	}
+	else 
+	{
+		printf("a=%d,b=%d, a es menor que b",a,b);
+	}
+	}
+}
+
+*/ los decrementos no paran en cero 
+
+/*
+#include<stdio.h>
+int a,b,c,d;
+main()
+{
+printf("ingresa un valor");
+scanf("%d",&a);
+printf("ingresa otro valor");
+scanf("%d",&b);
+c=a;
+d=b;
+while (c>0&&d>0)
+{
+	c=(c-1);
+	d=(d-1);
+	printf("a=%d__b=%d",c,d);
+}
+if (c==0&&d==0)
+{
+	printf("a y b son iguales");
+}
+else 
+{
+	if (c==0)
+	{
+		printf("a=%d,b=%d, a es menor que b", a,b);
+	}
+	else 
+	{
+		printf("a=%d,b=%d, a es mayor que b",a,b);
+	}
+	}
+}
+
+*/ le cambie el conector || por && para que detenga los decrementos en 0 y ya es la versión correcta.
